@@ -16,6 +16,7 @@
 		7B6465C729B36CE30021A86F /* VishayKaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465C629B36CE30021A86F /* VishayKaTests.swift */; };
 		7B6465D129B36CE30021A86F /* VishayKaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465D029B36CE30021A86F /* VishayKaUITests.swift */; };
 		7B6465D329B36CE30021A86F /* VishayKaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465D229B36CE30021A86F /* VishayKaUITestsLaunchTests.swift */; };
+		7B6465E329B372E00021A86F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465E229B372E00021A86F /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7B6465CC29B36CE30021A86F /* VishayKaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VishayKaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6465D029B36CE30021A86F /* VishayKaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishayKaUITests.swift; sourceTree = "<group>"; };
 		7B6465D229B36CE30021A86F /* VishayKaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishayKaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B6465E229B372E00021A86F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				7B6465B329B36CE20021A86F /* ViewController.swift */,
+				7B6465E229B372E00021A86F /* RegisterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				7B6465B429B36CE20021A86F /* ViewController.swift in Sources */,
 				7B6465B029B36CE20021A86F /* AppDelegate.swift in Sources */,
 				7B6465B229B36CE20021A86F /* SceneDelegate.swift in Sources */,
+				7B6465E329B372E00021A86F /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
