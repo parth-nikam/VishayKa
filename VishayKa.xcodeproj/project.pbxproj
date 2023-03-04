@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B6465B029B36CE20021A86F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465AF29B36CE20021A86F /* AppDelegate.swift */; };
+		7B6465B229B36CE20021A86F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465B129B36CE20021A86F /* SceneDelegate.swift */; };
+		7B6465B429B36CE20021A86F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465B329B36CE20021A86F /* ViewController.swift */; };
+		7B6465B729B36CE20021A86F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6465B529B36CE20021A86F /* Main.storyboard */; };
+		7B6465B929B36CE30021A86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6465B829B36CE30021A86F /* Assets.xcassets */; };
+		7B6465BC29B36CE30021A86F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6465BA29B36CE30021A86F /* LaunchScreen.storyboard */; };
+		7B6465C729B36CE30021A86F /* VishayKaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465C629B36CE30021A86F /* VishayKaTests.swift */; };
+		7B6465D129B36CE30021A86F /* VishayKaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465D029B36CE30021A86F /* VishayKaUITests.swift */; };
+		7B6465D329B36CE30021A86F /* VishayKaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465D229B36CE30021A86F /* VishayKaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B6465C329B36CE30021A86F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6465A429B36CE20021A86F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B6465AB29B36CE20021A86F;
+			remoteInfo = VishayKa;
+		};
+		7B6465CD29B36CE30021A86F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6465A429B36CE20021A86F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B6465AB29B36CE20021A86F;
+			remoteInfo = VishayKa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B6465AC29B36CE20021A86F /* VishayKa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VishayKa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6465AF29B36CE20021A86F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B6465B129B36CE20021A86F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7B6465B329B36CE20021A86F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B6465B629B36CE20021A86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B6465B829B36CE30021A86F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B6465BB29B36CE30021A86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B6465BD29B36CE30021A86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6465C229B36CE30021A86F /* VishayKaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VishayKaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6465C629B36CE30021A86F /* VishayKaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishayKaTests.swift; sourceTree = "<group>"; };
+		7B6465CC29B36CE30021A86F /* VishayKaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VishayKaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6465D029B36CE30021A86F /* VishayKaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishayKaUITests.swift; sourceTree = "<group>"; };
+		7B6465D229B36CE30021A86F /* VishayKaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishayKaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B6465A929B36CE20021A86F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6465BF29B36CE30021A86F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6465C929B36CE30021A86F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B6465A329B36CE20021A86F = {
+			isa = PBXGroup;
+			children = (
+				7B6465AE29B36CE20021A86F /* VishayKa */,
+				7B6465C529B36CE30021A86F /* VishayKaTests */,
+				7B6465CF29B36CE30021A86F /* VishayKaUITests */,
+				7B6465AD29B36CE20021A86F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B6465AD29B36CE20021A86F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B6465AC29B36CE20021A86F /* VishayKa.app */,
+				7B6465C229B36CE30021A86F /* VishayKaTests.xctest */,
+				7B6465CC29B36CE30021A86F /* VishayKaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B6465AE29B36CE20021A86F /* VishayKa */ = {
+			isa = PBXGroup;
+			children = (
+				7B6465AF29B36CE20021A86F /* AppDelegate.swift */,
+				7B6465B129B36CE20021A86F /* SceneDelegate.swift */,
+				7B6465B329B36CE20021A86F /* ViewController.swift */,
+				7B6465B529B36CE20021A86F /* Main.storyboard */,
+				7B6465B829B36CE30021A86F /* Assets.xcassets */,
+				7B6465BA29B36CE30021A86F /* LaunchScreen.storyboard */,
+				7B6465BD29B36CE30021A86F /* Info.plist */,
+			);
+			path = VishayKa;
+			sourceTree = "<group>";
+		};
+		7B6465C529B36CE30021A86F /* VishayKaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6465C629B36CE30021A86F /* VishayKaTests.swift */,
+			);
+			path = VishayKaTests;
+			sourceTree = "<group>";
+		};
+		7B6465CF29B36CE30021A86F /* VishayKaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6465D029B36CE30021A86F /* VishayKaUITests.swift */,
+				7B6465D229B36CE30021A86F /* VishayKaUITestsLaunchTests.swift */,
+			);
+			path = VishayKaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B6465AB29B36CE20021A86F /* VishayKa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6465D629B36CE30021A86F /* Build configuration list for PBXNativeTarget "VishayKa" */;
+			buildPhases = (
+				7B6465A829B36CE20021A86F /* Sources */,
+				7B6465A929B36CE20021A86F /* Frameworks */,
+				7B6465AA29B36CE20021A86F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VishayKa;
+			productName = VishayKa;
+			productReference = 7B6465AC29B36CE20021A86F /* VishayKa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B6465C129B36CE30021A86F /* VishayKaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6465D929B36CE30021A86F /* Build configuration list for PBXNativeTarget "VishayKaTests" */;
+			buildPhases = (
+				7B6465BE29B36CE30021A86F /* Sources */,
+				7B6465BF29B36CE30021A86F /* Frameworks */,
+				7B6465C029B36CE30021A86F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6465C429B36CE30021A86F /* PBXTargetDependency */,
+			);
+			name = VishayKaTests;
+			productName = VishayKaTests;
+			productReference = 7B6465C229B36CE30021A86F /* VishayKaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B6465CB29B36CE30021A86F /* VishayKaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6465DC29B36CE30021A86F /* Build configuration list for PBXNativeTarget "VishayKaUITests" */;
+			buildPhases = (
+				7B6465C829B36CE30021A86F /* Sources */,
+				7B6465C929B36CE30021A86F /* Frameworks */,
+				7B6465CA29B36CE30021A86F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6465CE29B36CE30021A86F /* PBXTargetDependency */,
+			);
+			name = VishayKaUITests;
+			productName = VishayKaUITests;
+			productReference = 7B6465CC29B36CE30021A86F /* VishayKaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B6465A429B36CE20021A86F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7B6465AB29B36CE20021A86F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7B6465C129B36CE30021A86F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7B6465AB29B36CE20021A86F;
+					};
+					7B6465CB29B36CE30021A86F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7B6465AB29B36CE20021A86F;
+					};
+				};
+			};
+			buildConfigurationList = 7B6465A729B36CE20021A86F /* Build configuration list for PBXProject "VishayKa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B6465A329B36CE20021A86F;
+			productRefGroup = 7B6465AD29B36CE20021A86F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B6465AB29B36CE20021A86F /* VishayKa */,
+				7B6465C129B36CE30021A86F /* VishayKaTests */,
+				7B6465CB29B36CE30021A86F /* VishayKaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B6465AA29B36CE20021A86F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6465BC29B36CE30021A86F /* LaunchScreen.storyboard in Resources */,
+				7B6465B929B36CE30021A86F /* Assets.xcassets in Resources */,
+				7B6465B729B36CE20021A86F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6465C029B36CE30021A86F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6465CA29B36CE30021A86F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B6465A829B36CE20021A86F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6465B429B36CE20021A86F /* ViewController.swift in Sources */,
+				7B6465B029B36CE20021A86F /* AppDelegate.swift in Sources */,
+				7B6465B229B36CE20021A86F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6465BE29B36CE30021A86F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6465C729B36CE30021A86F /* VishayKaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6465C829B36CE30021A86F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6465D329B36CE30021A86F /* VishayKaUITestsLaunchTests.swift in Sources */,
+				7B6465D129B36CE30021A86F /* VishayKaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B6465C429B36CE30021A86F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B6465AB29B36CE20021A86F /* VishayKa */;
+			targetProxy = 7B6465C329B36CE30021A86F /* PBXContainerItemProxy */;
+		};
+		7B6465CE29B36CE30021A86F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B6465AB29B36CE20021A86F /* VishayKa */;
+			targetProxy = 7B6465CD29B36CE30021A86F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B6465B529B36CE20021A86F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6465B629B36CE20021A86F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B6465BA29B36CE30021A86F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6465BB29B36CE30021A86F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B6465D429B36CE30021A86F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B6465D529B36CE30021A86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B6465D729B36CE30021A86F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CRPBP2B68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VishayKa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parthnikam.VishayKa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B6465D829B36CE30021A86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CRPBP2B68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VishayKa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parthnikam.VishayKa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B6465DA29B36CE30021A86F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CRPBP2B68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parthnikam.VishayKaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VishayKa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VishayKa";
+			};
+			name = Debug;
+		};
+		7B6465DB29B36CE30021A86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CRPBP2B68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parthnikam.VishayKaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VishayKa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VishayKa";
+			};
+			name = Release;
+		};
+		7B6465DD29B36CE30021A86F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CRPBP2B68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parthnikam.VishayKaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VishayKa;
+			};
+			name = Debug;
+		};
+		7B6465DE29B36CE30021A86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CRPBP2B68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parthnikam.VishayKaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VishayKa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B6465A729B36CE20021A86F /* Build configuration list for PBXProject "VishayKa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6465D429B36CE30021A86F /* Debug */,
+				7B6465D529B36CE30021A86F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6465D629B36CE30021A86F /* Build configuration list for PBXNativeTarget "VishayKa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6465D729B36CE30021A86F /* Debug */,
+				7B6465D829B36CE30021A86F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6465D929B36CE30021A86F /* Build configuration list for PBXNativeTarget "VishayKaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6465DA29B36CE30021A86F /* Debug */,
+				7B6465DB29B36CE30021A86F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6465DC29B36CE30021A86F /* Build configuration list for PBXNativeTarget "VishayKaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6465DD29B36CE30021A86F /* Debug */,
+				7B6465DE29B36CE30021A86F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B6465A429B36CE20021A86F /* Project object */;
+}
