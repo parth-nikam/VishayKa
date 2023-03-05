@@ -263,7 +263,7 @@
                     <connections>
                         <outlet property="emailTextfield" destination="wqN-XW-q85" id="SKJ-n6-6pu"/>
                         <outlet property="passwordTextfield" destination="gIA-rg-nyd" id="WsV-JE-MHX"/>
-                        <segue destination="o4y-12-qFJ" kind="show" identifier="LoginToChat " id="hGP-x4-ihD"/>
+                        <segue destination="o4y-12-qFJ" kind="show" identifier="LoginToChat" id="hGP-x4-ihD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hQI-GU-9t9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -372,7 +372,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ryB-Qf-HZS"/>
+        <segue reference="hGP-x4-ihD"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="systemBrownColor"/>
     <resources>
