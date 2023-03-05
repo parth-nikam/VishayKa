@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		7B6465B029B36CE20021A86F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465AF29B36CE20021A86F /* AppDelegate.swift */; };
 		7B6465B229B36CE20021A86F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465B129B36CE20021A86F /* SceneDelegate.swift */; };
-		7B6465B429B36CE20021A86F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465B329B36CE20021A86F /* ViewController.swift */; };
 		7B6465B729B36CE20021A86F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6465B529B36CE20021A86F /* Main.storyboard */; };
 		7B6465B929B36CE30021A86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6465B829B36CE30021A86F /* Assets.xcassets */; };
 		7B6465BC29B36CE30021A86F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6465BA29B36CE30021A86F /* LaunchScreen.storyboard */; };
 		7B6465C729B36CE30021A86F /* VishayKaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465C629B36CE30021A86F /* VishayKaTests.swift */; };
 		7B6465D129B36CE30021A86F /* VishayKaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465D029B36CE30021A86F /* VishayKaUITests.swift */; };
 		7B6465D329B36CE30021A86F /* VishayKaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465D229B36CE30021A86F /* VishayKaUITestsLaunchTests.swift */; };
-		7B6465E329B372E00021A86F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465E229B372E00021A86F /* RegisterViewController.swift */; };
+		7BB47D2A29B3778800EE2062 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB47D2629B3778700EE2062 /* LoginViewController.swift */; };
+		7BB47D2B29B3778800EE2062 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB47D2729B3778800EE2062 /* ChatViewController.swift */; };
+		7BB47D2C29B3778800EE2062 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB47D2829B3778800EE2062 /* WelcomeViewController.swift */; };
+		7BB47D2D29B3778800EE2062 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB47D2929B3778800EE2062 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,6 @@
 		7B6465AC29B36CE20021A86F /* VishayKa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VishayKa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6465AF29B36CE20021A86F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B6465B129B36CE20021A86F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7B6465B329B36CE20021A86F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B6465B629B36CE20021A86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B6465B829B36CE30021A86F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B6465BB29B36CE30021A86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,7 +51,10 @@
 		7B6465CC29B36CE30021A86F /* VishayKaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VishayKaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6465D029B36CE30021A86F /* VishayKaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishayKaUITests.swift; sourceTree = "<group>"; };
 		7B6465D229B36CE30021A86F /* VishayKaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishayKaUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7B6465E229B372E00021A86F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		7BB47D2629B3778700EE2062 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7BB47D2729B3778800EE2062 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7BB47D2829B3778800EE2062 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		7BB47D2929B3778800EE2062 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +152,10 @@
 		7B6465E129B36D8D0021A86F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7B6465B329B36CE20021A86F /* ViewController.swift */,
-				7B6465E229B372E00021A86F /* RegisterViewController.swift */,
+				7BB47D2729B3778800EE2062 /* ChatViewController.swift */,
+				7BB47D2629B3778700EE2062 /* LoginViewController.swift */,
+				7BB47D2929B3778800EE2062 /* RegisterViewController.swift */,
+				7BB47D2829B3778800EE2062 /* WelcomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,10 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B6465B429B36CE20021A86F /* ViewController.swift in Sources */,
+				7BB47D2A29B3778800EE2062 /* LoginViewController.swift in Sources */,
+				7BB47D2C29B3778800EE2062 /* WelcomeViewController.swift in Sources */,
 				7B6465B029B36CE20021A86F /* AppDelegate.swift in Sources */,
+				7BB47D2D29B3778800EE2062 /* RegisterViewController.swift in Sources */,
+				7BB47D2B29B3778800EE2062 /* ChatViewController.swift in Sources */,
 				7B6465B229B36CE20021A86F /* SceneDelegate.swift in Sources */,
-				7B6465E329B372E00021A86F /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
