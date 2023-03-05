@@ -189,7 +189,7 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="3y2-dK-An1">
                                         <rect key="frame" x="0.0" y="20" width="430" height="137"/>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wqN-XW-q85">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="parth@gmail.com" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wqN-XW-q85">
                                         <rect key="frame" x="49" y="51" width="333" height="45"/>
                                         <color key="textColor" name="BrandBlue"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -214,7 +214,7 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="Xvr-Sk-x5q">
                                         <rect key="frame" x="0.0" y="20" width="430" height="137"/>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gIA-rg-nyd">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="parthnikam" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gIA-rg-nyd">
                                         <rect key="frame" x="49" y="48" width="333" height="45"/>
                                         <color key="textColor" name="BrandBlue"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -342,7 +342,14 @@
                             <constraint firstItem="lG7-6V-43c" firstAttribute="trailing" secondItem="Bw5-sW-8gx" secondAttribute="trailing" id="wkF-TS-Urf"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="sJj-DN-QaQ"/>
+                    <navigationItem key="navigationItem" id="sJj-DN-QaQ">
+                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="5Tc-1s-DpH">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="logOutPressed:" destination="o4y-12-qFJ" id="Igg-b7-c7b"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="messageTextfield" destination="DK6-ur-HgL" id="bl6-tT-lM7"/>
                         <outlet property="tableView" destination="lG7-6V-43c" id="5dg-7J-l8k"/>
