@@ -11,6 +11,7 @@
 		7B32D3B129B452A100B1AE61 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7B32D3B029B452A100B1AE61 /* FirebaseAnalytics */; };
 		7B32D3B329B452A100B1AE61 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7B32D3B229B452A100B1AE61 /* FirebaseAuth */; };
 		7B32D3B529B452A100B1AE61 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7B32D3B429B452A100B1AE61 /* FirebaseFirestore */; };
+		7B5C970029B45D9A0003A814 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5C96FF29B45D9A0003A814 /* Constants.swift */; };
 		7B6465B029B36CE20021A86F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465AF29B36CE20021A86F /* AppDelegate.swift */; };
 		7B6465B229B36CE20021A86F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6465B129B36CE20021A86F /* SceneDelegate.swift */; };
 		7B6465B729B36CE20021A86F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6465B529B36CE20021A86F /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		7B32D3AD29B4523C00B1AE61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7B5C96FF29B45D9A0003A814 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7B6465AC29B36CE20021A86F /* VishayKa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VishayKa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6465AF29B36CE20021A86F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B6465B129B36CE20021A86F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				7B6465BA29B36CE30021A86F /* LaunchScreen.storyboard */,
 				7B6465BD29B36CE30021A86F /* Info.plist */,
 				7B32D3AD29B4523C00B1AE61 /* GoogleService-Info.plist */,
+				7B5C96FF29B45D9A0003A814 /* Constants.swift */,
 			);
 			path = VishayKa;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				7BB47D2C29B3778800EE2062 /* WelcomeViewController.swift in Sources */,
 				7B6465B029B36CE20021A86F /* AppDelegate.swift in Sources */,
 				7BB47D2D29B3778800EE2062 /* RegisterViewController.swift in Sources */,
+				7B5C970029B45D9A0003A814 /* Constants.swift in Sources */,
 				7BB47D2B29B3778800EE2062 /* ChatViewController.swift in Sources */,
 				7B6465B229B36CE20021A86F /* SceneDelegate.swift in Sources */,
 			);
