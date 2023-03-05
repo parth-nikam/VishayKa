@@ -33,34 +33,25 @@ class ChatViewController: UIViewController {
     
     @IBAction func sendPressed(_ sender: UIButton) {
     }
-    
-
     @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
     
         do {
           try Auth.auth().signOut()
-            
             navigationController?.popToRootViewController(animated: true)
         } catch let signOutError as NSError {
           print("Error signing out: %@", signOutError)
         }
     }
-    
-    
 }
 
 extension ChatViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return messages.count
     }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath) as! MessageCell
-        
         cell.label.text = messages[indexPath.row].body
         return cell
     }
-    
-    
 }
 

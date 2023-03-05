@@ -29,9 +29,5 @@ class RegisterViewController: UIViewController {
                 }
             }
         }
-        
     }
-    
-    
-    
 }
