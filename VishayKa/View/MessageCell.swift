@@ -8,7 +8,6 @@
 import UIKit
 
 class MessageCell: UITableViewCell {
-
     
     @IBOutlet weak var messageBubble: UIView!
     @IBOutlet weak var label: UILabel!

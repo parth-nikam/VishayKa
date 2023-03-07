@@ -1,9 +1,8 @@
 //
 //  ChatViewController.swift
-//  Flash Chat iOS13
+//  VishayKa
 //
-//  Created by Angela Yu on 21/10/2019.
-//  Copyright © 2019 Angela Yu. All rights reserved.
+//  Created by Parth Nikam on 04/03/23.
 //
 
 import UIKit
@@ -17,6 +16,8 @@ class ChatViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextfield: UITextField!
     
+    let db = Firestore.firestore()
+    
     var messages: [Message] = [
         Message(sender: "parth@gmail.com", body: "Hey"),
         Message(sender: "1@23.com", body: "Hello"),
@@ -24,6 +25,7 @@ class ChatViewController: UIViewController {
     ]
      
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         navigationItem.hidesBackButton = true
         tableView.dataSource = self
@@ -32,6 +34,19 @@ class ChatViewController: UIViewController {
     }
     
     @IBAction func sendPressed(_ sender: UIButton) {
+        
+        if let messageBody = messageTextfield.text, let messageSender = Auth.auth().currentUser?.email{
+            db.collection(K.FStore.collectionName).addDocument(data: [
+                K.FStore.senderField: messageSender,
+                K.FStore.bodyField: messageBody
+            ]) { (error) in
+                if let e = error{
+                    print("There was an issue saving data to Firestore. \(e)")
+                } else{
+                    print("Successfully saved Data.")
+                }
+            }
+        }
     }
     @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
     
@@ -45,9 +60,11 @@ class ChatViewController: UIViewController {
 }
 
 extension ChatViewController: UITableViewDataSource{
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return messages.count
     }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath) as! MessageCell
         cell.label.text = messages[indexPath.row].body

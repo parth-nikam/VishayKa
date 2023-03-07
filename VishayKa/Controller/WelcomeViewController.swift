@@ -1,9 +1,8 @@
 //
 //  WelcomeViewController.swift
-//  Flash Chat iOS13
+//  VishayKa
 //
-//  Created by Angela Yu on 21/10/2019.
-//  Copyright © 2019 Angela Yu. All rights reserved.
+//  Created by Parth Nikam on 04/03/23.
 //
 
 import UIKit
@@ -16,7 +15,7 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
         titleLabel.text = ""
         var charIndex = 0.0
-        let titleText = "💬 VishayKa"
+        let titleText = K.appName
         for letter in titleText{
             Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false){ (timer) in
                 self.titleLabel.text?.append(letter)
