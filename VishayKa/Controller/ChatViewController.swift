@@ -19,9 +19,6 @@ class ChatViewController: UIViewController {
     let db = Firestore.firestore()
     
     var messages: [Message] = [
-        Message(sender: "parth@gmail.com", body: "Hey"),
-        Message(sender: "1@23.com", body: "Hello"),
-        Message(sender: "parth@gmail.com", body: "What's Up?")
     ]
      
     override func viewDidLoad() {
@@ -31,6 +28,33 @@ class ChatViewController: UIViewController {
         tableView.dataSource = self
         title = K.appName
         tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
+        
+        loadMessages()
+    }
+    
+    func loadMessages(){
+        messages = []
+        db.collection(K.FStore.collectionName).getDocuments{(QuerySnapshot, error) in
+            if let e = error{
+                print("There was an error while reading data from Firestore. \(e)")
+            }
+            else{
+                if let snapshotDocuments = QuerySnapshot?.documents{
+                    for doc in snapshotDocuments{
+                        let data = doc.data()
+                        if let messageSender = data[K.FStore.senderField] as? String, let messageBody = data[K.FStore.bodyField] as? String{
+                            let newMessage = Message(sender: messageSender, body: messageBody)
+                            self.messages.append(newMessage)
+                            
+                            DispatchQueue.main.async {
+                                self.tableView.reloadData()
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
     }
     
     @IBAction func sendPressed(_ sender: UIButton) {
@@ -48,6 +72,7 @@ class ChatViewController: UIViewController {
             }
         }
     }
+    
     @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
     
         do {
