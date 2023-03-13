@@ -1,2 +1,2 @@
 # VishayKa
-Messaging App powered by Firebase. 
+A Messaging App powered by Firebase. 
